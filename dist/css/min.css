@@ -499,9 +499,14 @@
   text-align: start;
   padding-bottom: 32px;
 }
+
 @media (min-width: 744px) {
   .move-free__title {
     padding-bottom: 0;
+  }
+
+   .bike-card img:hover {
+      scale: 1.2;
   }
 }
 @media (min-width: 744px) {
@@ -557,9 +562,6 @@
   height: 228px;
   display: block;
   margin: 0 auto 32px;
-}
-.bike-card img:hover {
-  scale: 1.2;
 }
 @media (min-width: 744px) {
   .bike-card img {
@@ -617,9 +619,6 @@
      object-position: center;
   transition: transform 300ms;
 }
-.place__photo-container img:hover {
-  transform: scale(1.1);
-}
 .place__description {
   margin-bottom: 40px;
 }
@@ -627,6 +626,10 @@
   .place__description {
     margin-bottom: 48px;
   }
+
+  .place__photo-container img:hover {
+  transform: scale(1.1);
+}
 }
 .place__title {
   margin: 0 0 8px;
